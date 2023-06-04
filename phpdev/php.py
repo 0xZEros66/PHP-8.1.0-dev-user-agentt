@@ -2,6 +2,10 @@ import os
 import re
 import requests
 
+
+print("ZEROS666")
+
+
 host = input("Enter the full host url:\n")
 request = requests.Session()
 response = request.get(host)
